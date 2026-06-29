@@ -4,9 +4,10 @@ metadata:
   name: mongo-pvc
   namespace: chat-app
 spec:
-  accessModes:
-    - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi
-  storageClassName: standard
+      storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+
+
